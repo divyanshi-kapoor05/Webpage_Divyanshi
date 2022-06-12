@@ -1,0 +1,265 @@
+<head>
+</head>
+
+<body>
+    <style>
+        .bordered {
+            width: 1400px;
+            height: 640px;
+            padding: 40px;
+            border: 3px solid black;
+            float: left;
+        }
+        
+        table {
+            border-collapse: collapse;
+            display: inline;
+            float: left;
+        }
+        
+        .box {
+            box-sizing: border-box;
+            border: 2px;
+            border-color: black;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+        }
+        
+        th,
+        td {
+            border: 1px solid black;
+            padding: 0px;
+        }
+        
+        caption {
+            caption-side: top;
+            width: auto;
+            text-align: center;
+            border: 2px;
+            font-size: large;
+        }
+        
+        .container {
+            overflow: hidden;
+        }
+        
+        .floatLeft {
+            width: 50%;
+            float: left;
+        }
+        
+        .floatRight {
+            width: 50%;
+            float: right;
+        }
+        
+        hr {
+            border: none;
+        }
+        
+        .parent {
+            margin: 1rem;
+            text-align: center;
+        }
+        
+        .child {
+            display: inline-block;
+            padding: 1rem;
+            vertical-align: middle;
+        }
+        
+        .here:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 10px;
+            bottom: 20px;
+            left: 46%;
+            border-left: 2px solid black;
+            transform: translate(-50%);
+        }
+    </style>
+    <div class="bordered">
+        <hr>
+        <hr>
+
+        <div class='parent'>
+            <div class='child' style="position:relative; right:180px;">
+                <p style="border:3px; border-style:solid; background:aqua; border-color:black; padding: 1em; width: 400px; text-align:center; ">Calls</p>
+            </div>
+            <td width="40%"> </td>
+            <div class='child' style="position:relative; left:80px;">
+                <p style="border:3px; border-style:solid; background:aqua; border-color:black; padding: 1em; width: 400px; text-align:center;">Puts</p>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+
+        <div class="floatLeft">
+            <table>
+                <caption> IV Gainers </caption>
+                <thead>
+                    <tr height=50px>
+                        <th width=130px style="background-color: green"></th>
+                        <th width=130px style="background-color: green"></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr height="40px">
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="floatRight">
+                <table>
+                    <caption> IV Losers </caption>
+                    <thead>
+                        <tr height=50px>
+                            <th width=130px style="background-color: red"></th>
+                            <th width=130px style="background-color: red"></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr height="40px">
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+        </div>
+
+        <div class="here"></div>
+        <div class="floatRight">
+
+            <table>
+                <caption>IV Gainers</caption>
+                <thead>
+                    <tr height=50px>
+                        <th width=130px style="background-color: green"></th>
+                        <th width=130px style="background-color: green"></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr height="40px">
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr height=40px>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="floatRight">
+                <table>
+                    <caption> IV Losers </caption>
+                    <thead>
+                        <tr height=50px>
+                            <th width=130px style="background-color: red"></th>
+                            <th width=130px style="background-color: red "></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr height="40px">
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr height=40px>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
